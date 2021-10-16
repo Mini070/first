@@ -27,6 +27,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     text-align:justify;
+    margin: 0;
+    padding: 10px; 
 }
 
 .menu {
