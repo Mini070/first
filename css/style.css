@@ -1,19 +1,23 @@
 
+/***************************************************/
+/*              seccion del index                  */
+/***************************************************/
 body {
     margin: 0;
     padding: 0;  
     min-height: 100vh;
+    /*display: grid;*/
     display: flex;
     flex-wrap: wrap;
 }
 
-aside {
+/*aside {
     width: 50%;
     display: flex;
     background-color: aquamarine;
     text-align: justify;
     flex-wrap: wrap;
-}
+}*/
 
 nav {
     align-self:flex-start;
@@ -71,4 +75,55 @@ footer {
     text-align: center;
     width: 100%;
 
+}
+
+
+/***************************************************/
+/*               seccion del player - grid         */
+/***************************************************/
+
+.main-container {
+    background-color: black;
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+h2 {
+    text-align:left;
+    padding: 10px;
+}
+.menu-lado {
+    color:#eee;
+}
+.menu-lado ul {
+    list-style: none;
+    padding: 20%;
+    display: grid;
+    gap:20px;
+
+    
+}
+.container-temas{
+  background-color: rgb(73, 73, 73);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.musicButton {
+    border-color: red;
+    border-style: none;
+    border-width: 2px;
+    animation-name: cambiarColor;
+    animation-duration: 5s;
+}
+
+.musicButton:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(128, 255, 0);
+}
+.item {
+    flex: 0 0 auto;
+    margin: 10px;
 }
