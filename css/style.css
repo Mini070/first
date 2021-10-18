@@ -22,25 +22,25 @@ body {
 nav {
     align-self:flex-start;
     background-color: rgb(145, 165, 221);
-    line-height: 3;
+    line-height: 4;
     width: 100%;
 }
 
 section {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     text-align:justify;
     margin: 0;
-    padding: 10px; 
+    padding: 20px; 
 }
 
 .menu {
     align-self:flex-start;
     background-color:rgb(0, 0, 0);
-    line-height: 1;
+    line-height: 3;
     width: 100%;
-    align-items: center;
+    align-items:center;
 }
 
 .menu-items {
@@ -58,7 +58,7 @@ section {
 .menu-items li a{
     padding: 7px 13px;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 12px;
     display: block;
     text-transform: uppercase;
     color:#eee ;
@@ -70,10 +70,11 @@ section {
 
 footer {
     align-self: flex-end;
-    background-color: rgb(145, 165, 221);
+    background-color: rgb(0, 0, 0);
     line-height: 3;
     text-align: center;
     width: 100%;
+    color:#eee;
 
 }
 
